@@ -1,5 +1,6 @@
 /* You could change the font t anything you want*/
-$btnPrimaryBAckground: green;
+$btnSuccessBAckground: green;
+$btnPrimaryBackground: green;
 $navbarBackgroundHighLight: white;
 $navbarBackground: white;
  $baseFontFamily: Oxygen;
@@ -8,10 +9,14 @@ $navbarBackground: white;
 body {
 	padding-top:60px;
 }
+body a{
+	color: green;
+	hover: purple;
+}
 
 @import 'bootstrap-responsive';
 .navbar-inner {
-	/*@include box-shadow (none !important);*/
+@include box-shadow (none !important);
 	border: 0;
 }
 .footer {
