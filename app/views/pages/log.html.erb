@@ -1,0 +1,35 @@
+<h1>Progress Log</h1>
+
+<h2>Rails Installation</h2>
+<p>
+I did two Rails installations: Windows using railsinstaller and
+Linux using virtual box, host Windows
+Using the Windows installation for this project.
+</p>
+<h2>Adding Pages</h2>
+<p>
+	After adding pages it appears that I had a repetition on each page of the page title and whatever was in the body  of the page.
+</p>
+<p>
+	I dicovered that in my application.html.erb I had an extra "yield" line. After removing this the pages displayed correctly.
+</p>
+<h2>Bootstrap Embellishment</h2>
+
+	<ul> 
+	<li>Installed bootstrap gem after adding 'bootstrap-sass' to gemfile </li>
+	<li>Made page responsive</li>
+	<li>Added top bar using grid system</li>
+	<li>Added login header link</li>
+	<li>Added button for 'sign up' link</li>
+	<li>Added 'hero-unit' to home page</li>
+</ul>
+<p> I seem to have broken somthing and my app is not working properly so I decided to start over from the beginning so I could retrace my steps. However when I tried to push to github, with my new app it didnt work.I fixed this with the following steps:</p>
+	<ul>
+		<li>from the console: git remote rename origin upstream</li>
+		<li> then: git remote add origin https://github.com/enjoycompany/omrails.git </li>
+		<li>git push origin master</li>
+	
+	<h2> Adding Devise and Simple_form</h2>
+
+	<p> I broke my app at this point and couldn't get the server to start properly. Finally I worked out that I had a space in the gemfile after simple_form. It is now working properly after a couple of days of pulling my hair out!!
+	</p>

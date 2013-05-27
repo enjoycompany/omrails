@@ -11,7 +11,7 @@ body {
 
 @import 'bootstrap-responsive';
 .navbar-inner {
-	@include box-shadow (none !important);
+	/*@include box-shadow (none !important);*/
 	border: 0;
 }
 .footer {
